@@ -1,0 +1,26 @@
+{
+  "name": "sephora",
+  "version": "1.0.0",
+  "description": "\u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jash444/sephora.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jash444/sephora/issues"
+  },
+  "homepage": "https://github.com/jash444/sephora#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
+}
