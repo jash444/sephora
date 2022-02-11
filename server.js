@@ -28,10 +28,8 @@ const details=require("./crud_controls/del")
 const login=require("./crud_controls/logincrud")
 const crudcart=require("./crud_controls/crudcart")
 app.use("/makeup",makeup)
-app.get("/",(res,req)=>{
-req.send("welocome")
-})
-app.use("/home",home)
+
+app.use("/",home)
 app.use("/cart",crudcart)
 app.use("",User)
 app.use("",login)
