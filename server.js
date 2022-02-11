@@ -36,13 +36,13 @@ app.use("",login)
 app.use("/delivery",details)
 
  app.use("/payment",pay)
+const port =process.env.PORT||2233
 
 
 
 
-
-app.listen("2233",async()=>{
+app.listen(port,async()=>{
     //http://localhost:2233/home
     await connect()
-    console.log("jaswant")
+    console.log("jaswant"+port)
 })
